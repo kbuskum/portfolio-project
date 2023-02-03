@@ -4,6 +4,7 @@ font-family: 'Source Sans Pro', sans-serif;
 */
 
 body {
+  background: #e7eaf6;
   text-align: center;
 }
 
@@ -15,4 +16,9 @@ p {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 300;
   font-size: 20px;
+}
+
+a {
+  color: #38598b;
+  text-decoration: none;
 }

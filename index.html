@@ -12,12 +12,6 @@
       src="https://kit.fontawesome.com/2913f8f30a.js"
       crossorigin="anonymous"
     ></script>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-      crossorigin="anonymous"
-    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -28,27 +22,40 @@
     <title>Portfolio Project</title>
   </head>
   <body>
-    <div class="row">
-      <div class="left">
-        <img src="images/1.png" alt="img.png" />
-      </div>
-      <div class="right">
-        <div class="content">
-          <h1>Kristine Buskum</h1>
-          <p>Front-end developer based in Scandinavia</p>
+    <div class="container">
+      <nav>
+        <div class="logo"><img src="images/logo/logo-1.png" alt="" /></div>
+        <ul class="navItems">
+          <li><a href="#">home</a></li>
+          <li><a href="#">about</a></li>
+          <li><a href="#">work</a></li>
+          <li><a href="#">contact</a></li>
+        </ul>
+        <div class="links">
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </nav>
+
+      <div class="wrapper">
+        <div class="cols cols0">
+          <span class="topline">Kristine Buskum</span>
+          <h1>I'm <span class="multiText">Front-end developer</span></h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ex
+            sequi fuga et voluptate, placeat modi nisi nulla omnis, odit libero
+            beatae fugit tempore labore quo adipisci magnam quibusdam
+            perferendis.
+          </p>
+        </div>
+        <div class="cols cols1">
+          <div class="imgbox">
+            <img src="images/splash.png" class="splash" />
+            <img src="images/KristineB-2.png" class="person" />
+          </div>
         </div>
       </div>
-    </div>
-    <div class="social-links">
-      <a href="https://www.linkedin.com/in/kristine-buskum/" target="_blank"
-        ><i class="fa-brands fa-linkedin-in"></i
-      ></a>
-      <a href="https://www.facebook.com/kristine.buskum.3" target="_blank"
-        ><i class="fa-brands fa-facebook-f"></i
-      ></a>
-      <a href="https://www.instagram.com/busky_official/" target="_blank"
-        ><i class="fa-brands fa-instagram"></i
-      ></a>
     </div>
   </body>
 </html>

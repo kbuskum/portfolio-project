@@ -1,11 +1,10 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+:root {
+  --bg-color: #e7eaf6;
+  --socials-color: linear-gradient(-45deg, #a2a8d3, #38598b);
 }
 
 body {
-  background: #e7eaf6;
+  background: var(--bg-color);
   width: 100%;
   min-height: 100vh;
   display: grid;
@@ -20,11 +19,6 @@ h1 {
 p {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 300;
-}
-
-a {
-  color: #38598b;
-  text-decoration: none;
 }
 
 .row {
@@ -92,7 +86,7 @@ a {
   height: 100%;
   top: -90px;
   left: 0;
-  background: linear-gradient(-45deg, #a2a8d3, #38598b);
+  background: var(--socials-color);
   position: absolute;
   transition: 0.5s;
 }
